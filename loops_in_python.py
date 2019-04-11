@@ -19,9 +19,10 @@ for i in range(4):
 
 
 for i in range(1,11):
-    print('{:<3}|'.format(i),end="")
+    print('{:<3}|'.format(i),)
     for j in range(1,11):
         print('{:>4}'.format(i * j),end="")
         if i == 1:
-            print('\n{:#^44}'.format(""),end="")
+            print('\n{:#^42}'.format(""),end="")
             print("")
+           

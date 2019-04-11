@@ -15,4 +15,5 @@ d=8+c
 f=d/2
 g=5.0*f
 h=g%4
+
 print(h)
